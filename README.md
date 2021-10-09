@@ -1,6 +1,5 @@
-## Opening a server using XAMPP
+## Opening a server using XAMPP for Windows
 
-This Version Works on Windows 10
 
 Install XAMPP from [Official Website](https://www.apachefriends.org/index.html). Then Follow the steps below:
 
