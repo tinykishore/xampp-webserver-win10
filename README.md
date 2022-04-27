@@ -21,7 +21,7 @@ Install XAMPP from [Official Website](https://www.apachefriends.org/index.html).
 
    ``` shell
    <VirtualHost *:80>
-          DocumentRoot "<document-root-folder>"
+          DocumentRoot "document-root-folder"
           ServerName localhost
    </VirtualHost>
    ```
@@ -32,7 +32,7 @@ Install XAMPP from [Official Website](https://www.apachefriends.org/index.html).
    This can be solved by adding these lines at the top of `<Virtualhost *:80>`:
 
    ```shell
-   <Directory "<document-path">
+   <Directory "document-path">
            Options Indexes FollowSymLinks MultiViews
            AllowOverride all
            Order Deny,Allow
